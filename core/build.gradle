@@ -1,0 +1,18 @@
+jar {
+    apply plugin: 'application'
+		
+	dependencies 
+	{
+		manifest 
+		{
+			attributes 'Main-Class':'Core'
+		}
+		from
+		{
+			configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+		}
+		compile 'junit:junit:4.12'
+	}
+	
+	mainClassName = 'Core'
+}

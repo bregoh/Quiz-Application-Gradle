@@ -1,0 +1,1 @@
+include 'core', 'foodQuiz', 'multichoiceplugin', 'shortanswerplugin', 'sportQuiz','footballQuiz'
