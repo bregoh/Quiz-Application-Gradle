@@ -2,9 +2,13 @@
 This a Java Application built with Gradle Script
 
 RUNNING THE APPLICATION
+
 The command below can be used to run the application
+
 C:/QuizApp > gradle build
+
 C:/QuizApp > gradle run
+
 
 WRITING A QUESTION-TYPE PLUGIN (GUI)
 The design of the question type plugin depends on the developer. I will be explaining the steps to consider while writing the plugin
